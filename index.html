@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 15px 20px;
+            margin: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .imagenes {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        .imagen {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ANIMACIONES</h1>
+
+    <button onclick="window.location.href='advanced-staggering-2.html'">Animación 1</button>
+    <button onclick="window.location.href='advanced-staggering.html'">Animación 2</button>
+
+    <div class="imagenes">
+        <img class="imagen" src="img/animejs-v3-logo-animation.gif" alt="Imagen 1">
+        <img class="imagen" src="img/animejs-v3-header-animation.gif" alt="Imagen 2">
+        <img class="imagen" src="img/animejs-v3-release.gif" alt="Imagen 3">
+    </div>
+
+</body>
+</html>
